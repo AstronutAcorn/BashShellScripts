@@ -1,0 +1,32 @@
+#!/bin/bash
+
+clear
+echo "\"Hello, and welcome to the City's Central Museum!\", says an eletronic voice coming from above"
+echo "You are standing at the front of a pair of enormous doors that lead into the museum"
+echo "Looking around, you see a gigantic replica of a dinosaur directly in the center"
+read
+echo "And over to the left you spot the vault!"
+echo "You quietly creep over to the door and try to make a plan"
+echo "You see a fire alarm across the buiding, but you also realize there's a door that leads to the office area"
+read
+echo "And you know there's a door leading to the vault where all of the offices are!"
+read
+echo "But someone could see you"
+read
+echo "You could pull the fire alarm, but that's risky as well"
+read 
+echo "You decide to leave it to the dude who controls everything you do from a keyboard"
+echo -e "1: Do you pull the alarm, or 2: do you sneak in from the back?\n"
+read -p '1 / 2:' num1
+
+if [ $num1 = 1 ]
+then
+echo -e "\nHuray!"
+fi
+
+if [ $num1 = 2 ]
+then
+echo -e "\nYou get caught and they kill you"
+fi
+read
+clear
